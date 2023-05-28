@@ -1,2 +1,2 @@
-# sonyaEEW
+# QuakeWatch👀
 EEWBot for Discord/Misskey.
