@@ -4,7 +4,9 @@ QuakeWatchは、Discord/Misskey上で動作する地震情報botです。
 [Misskey公式bot](https://misskey.io/@eewbot)
 
 ~~Discord公式bot~~現在公式botは非公開です。
-
+# Example
+![readme_img/Screenshot 2023-05-29 11.07.05.png](https://github.com/sonyakun/QuakeWatch/blob/0976efc9e5452295dc73482a6391902b721ece4c/readme_img/Screenshot%202023-05-29%2011.07.05.png)
+![img](https://github.com/sonyakun/QuakeWatch/blob/0976efc9e5452295dc73482a6391902b721ece4c/readme_img/Screenshot%202023-05-29%2011.32.19.png)
 # Self Hosting
 > **Warning**
 > セルフホスティングにより動作環境で生じた不具合などの責任は**一切負いません。**
