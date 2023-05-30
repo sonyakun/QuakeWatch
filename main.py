@@ -13,6 +13,12 @@ import configparser
 import webbrowser
 import logging
 
+"""
+QuakeWatchの画像生成用バックエンドの簡易ドキュメント
+http://ip/generate_map?map_data=にp2p地震速報のjsonを投げる(キーが0から始まるものは中身を投げてください。)
+成功時に返却されるものはcontentキーの中身にある文字base64でエンコードしたpngです。
+"""
+
 inifile = configparser.ConfigParser()
 inifile.read('config.ini', encoding="utf-8")
 gateway_url = "wss://api.p2pquake.net/v2/ws"
