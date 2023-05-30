@@ -29,7 +29,7 @@ pip install folium fastapi discord-webhook misskey.py websockets httpx "uvicorn[
 
 インストール後に実行するやつ
 ```shell
-py -m playwright install
+playwright install
 ```
 ## セッティング
 起動する前に、config.iniを編集する必要があります。
