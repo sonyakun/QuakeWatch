@@ -161,9 +161,10 @@ async def connect():
                                     }
                                     with open(f"images/{sindo}.png", 'rb') as f:
                                         file_bin_logobg = f.read()
-                                    with open(f'temp\\{rj["uuid"]}.png', 'rb') as f:
-                                        file_bin_logoeffect = f.read()
-                                    files_qiita  = {
+                                    file_bin_logoeffect = io.BytesIO(base64.b64decode(rj["content"].encode('utf-8')))
+                                    #with open(f'temp\\{rj["uuid"]}.png', 'rb') as f:
+                                    #    file_bin_logoeffect = f.read()
+                                    files_discord  = {
                                         "logo_bg" : ( "eew2.png", file_bin_logobg ),
                                         "logo_effect" : ( "eew.png", file_bin_logoeffect ),
                                     }
