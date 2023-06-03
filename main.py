@@ -160,6 +160,7 @@ async def connect():
                                         }
                                     }
                                     with open(f"images/{sindo}.png", 'rb') as f:
+					file_bin_logobg = f.read()
                                     file_bin_logoeffect = io.BytesIO(base64.b64decode(rj["content"].encode('utf-8')))
                                     #with open(f'temp\\{rj["uuid"]}.png', 'rb') as f:
                                     #    file_bin_logoeffect = f.read()
