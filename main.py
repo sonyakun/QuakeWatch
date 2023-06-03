@@ -160,10 +160,10 @@ async def connect():
                                         }
                                     }
                                     with open(f"images/{sindo}.png", 'rb') as f:
-                                        file_bin_logobg = f.read()
-                                    with open(f'temp\\{rj["uuid"]}.png', 'rb') as f:
-                                        file_bin_logoeffect = f.read()
-                                    files_qiita  = {
+                                    file_bin_logoeffect = io.BytesIO(base64.b64decode(rj["content"].encode('utf-8')))
+                                    #with open(f'temp\\{rj["uuid"]}.png', 'rb') as f:
+                                    #    file_bin_logoeffect = f.read()
+                                    files_discord  = {
                                         "logo_bg" : ( "eew2.png", file_bin_logobg ),
                                         "logo_effect" : ( "eew.png", file_bin_logoeffect ),
                                     }
@@ -175,8 +175,8 @@ async def connect():
                                         print( json.dumps( json.loads(res.content), indent=4, ensure_ascii=False ) )
                                 if not inifile.get('MISSKEY', 'TOKEN') == "":
                                     mk = Misskey(inifile.get('MISSKEY', 'SERVER'), i=inifile.get('MISSKEY', 'TOKEN'))
-                                    with open(f'temp\\{rj["uuid"]}.png', "rb") as f:
-                                        data = mk.drive_files_create(f)
+                                    f = io.BytesIO(base64.b64decode(rj["content"].encode('utf-8')))
+                                    data = mk.drive_files_create(f, name="eew.png")
                                     new_note = mk.notes_create(text=f'{result_str}頃、マグニチュード{magnitude}、最大{mt[sindo]}の地震が発生しました。深さは{depth}km、発生場所は{name}です。詳細は以下の画像をご覧ください。', file_ids=[data["id"]])
                                     os.remove(f'temp\\{rj["uuid"]}.png')
             except ConnectionClosed:
