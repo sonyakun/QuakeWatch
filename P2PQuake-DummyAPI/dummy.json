@@ -1,0 +1,248 @@
+{
+    "areas": [
+       {
+          "arrivalTime": "2023/06/11 18:55:18",
+          "kindCode": "10",
+          "name": "胆振地方中東部",
+          "pref": "北海道道南",
+          "scaleFrom": 45,
+          "scaleTo": 45
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:21",
+          "kindCode": "10",
+          "name": "石狩地方中部",
+          "pref": "北海道道央",
+          "scaleFrom": 45,
+          "scaleTo": 45
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:19",
+          "kindCode": "10",
+          "name": "石狩地方南部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:19",
+          "kindCode": "10",
+          "name": "日高地方西部",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:20",
+          "kindCode": "10",
+          "name": "空知地方南部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:20",
+          "kindCode": "10",
+          "name": "日高地方中部",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:21",
+          "kindCode": "10",
+          "name": "胆振地方西部",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:22",
+          "kindCode": "10",
+          "name": "石狩地方北部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:23",
+          "kindCode": "10",
+          "name": "後志地方東部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:24",
+          "kindCode": "10",
+          "name": "後志地方北部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:24",
+          "kindCode": "10",
+          "name": "日高地方東部",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:25",
+          "kindCode": "10",
+          "name": "渡島地方東部",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:25",
+          "kindCode": "10",
+          "name": "上川地方南部",
+          "pref": "北海道道北",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:25",
+          "kindCode": "10",
+          "name": "十勝地方北部",
+          "pref": "北海道道東",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:26",
+          "kindCode": "10",
+          "name": "後志地方西部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:28",
+          "kindCode": "10",
+          "name": "渡島地方北部",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:28",
+          "kindCode": "10",
+          "name": "十勝地方南部",
+          "pref": "北海道道東",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:30",
+          "kindCode": "10",
+          "name": "空知地方北部",
+          "pref": "北海道道央",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:31",
+          "kindCode": "10",
+          "name": "留萌地方南部",
+          "pref": "北海道道北",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:32",
+          "kindCode": "10",
+          "name": "檜山地方",
+          "pref": "北海道道南",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:33",
+          "kindCode": "10",
+          "name": "十勝地方中部",
+          "pref": "北海道道東",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:33",
+          "kindCode": "10",
+          "name": "青森県下北",
+          "pref": "青森",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:36",
+          "kindCode": "10",
+          "name": "上川地方北部",
+          "pref": "北海道道北",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:41",
+          "kindCode": "10",
+          "name": "青森県津軽北部",
+          "pref": "青森",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:41",
+          "kindCode": "10",
+          "name": "青森県三八上北",
+          "pref": "青森",
+          "scaleFrom": 40,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:27",
+          "kindCode": "10",
+          "name": "空知地方中部",
+          "pref": "北海道道央",
+          "scaleFrom": 30,
+          "scaleTo": 40
+       },
+       {
+          "arrivalTime": "2023/06/11 18:55:40",
+          "kindCode": "10",
+          "name": "留萌地方中北部",
+          "pref": "北海道道北",
+          "scaleFrom": 30,
+          "scaleTo": 40
+       }
+    ],
+    "cancelled": false,
+    "code": 556,
+    "earthquake": {
+       "arrivalTime": "2023/06/11 18:55:03",
+       "condition": "",
+       "hypocenter": {
+          "depth": 150,
+          "latitude": 42.6,
+          "longitude": 141.8,
+          "magnitude": 6.3,
+          "name": "苫小牧沖",
+          "reduceName": "苫小牧沖"
+       },
+       "originTime": "2023/06/11 18:54:43"
+    },
+    "id": "648599fd51d38bb17b2e8393",
+    "issue": {
+       "eventId": "20230611185503",
+       "serial": "1",
+       "time": "2023/06/11 18:55:08"
+    },
+    "time": "2023/06/11 18:55:08.98",
+    "timestamp": {
+       "convert": "2023/06/11 18:55:08.959",
+       "register": "2023/06/11 18:55:08.98"
+    },
+    "user_agent": "jmaxml-seis-parser-go, relay, register-api",
+    "ver": "20220813"
+ }
